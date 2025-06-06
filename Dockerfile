@@ -20,9 +20,9 @@ ENV RUST_LOG="minidash"
 ENV CONFIG_FILE="/app/data/config.yml"
 ENV TEMPLATE_FILE="/app/data/template.hbs"
 ENV STATIC_PATH="/app/data/static"
-ENV ADDRESS="0.0.0.0:3050"
+ENV ADDRESS="0.0.0.0:3020"
 
-EXPOSE 3050/tcp
+EXPOSE 3020/tcp
 
 ENTRYPOINT ["./entrypoint.sh"]
 CMD ["./minidash"]
