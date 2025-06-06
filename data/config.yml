@@ -1,5 +1,5 @@
 apps:
-  pfSense:
+  gohockey:
     url: https://example.com
     display_url: example.com
     icon: security
